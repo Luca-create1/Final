@@ -1,0 +1,13 @@
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@mixin novedades_descripcion{
+    margin-top: 25px;
+    margin-left: 320px;
+    width: 550px;
+    height: 350px;
+    border: 1px solid black;
+}

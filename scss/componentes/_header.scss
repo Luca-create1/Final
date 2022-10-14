@@ -1,0 +1,52 @@
+
+header {
+
+    .contenedor {
+        
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        
+        
+        img {
+            padding-left: 25px;
+            width: 300px;
+            height: 80px;
+            
+
+        }
+
+        nav {
+            padding-right: 50px;
+            padding-top: 35px;
+            
+            ul {
+                display: flex;
+
+                li {
+                    a:hover {
+                        text-decoration: underline;
+                        color: nth($colores , 1);
+                    }
+
+                    list-style: none;
+                    padding-left: 20px;
+                    font-size:nth($font-size, 1);
+
+                    a {
+
+
+                        text-decoration: none;
+                        color: nth($colores, 1);
+                        font-family: nth($letra, 1);
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+

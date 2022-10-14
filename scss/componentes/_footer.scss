@@ -1,0 +1,29 @@
+
+footer{
+    background-color:nth($colores , 4 );
+    margin-top: 100px;
+    border: nth($borde , 3 );
+    display: flex;  
+    
+    
+    h2{font-size: nth($font-size, 3 );
+     padding: 30px 0 10px 120px;   
+     color:nth($colores , 2 );   
+    }
+    img{
+        padding-left: 10px;
+    }
+
+    .descripcion_footer{
+        padding: 20px 0 20px 0 ;
+        line-height: 2;
+        font-size: nth($font-size , 7 );
+        color:nth($colores , 2 );
+    }
+
+    .mapa_footer{
+        
+        padding: 40px 0 20px 0 ;
+        margin: 0 0 0 400px;
+    }
+}
