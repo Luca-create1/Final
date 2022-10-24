@@ -57,291 +57,6 @@ footer .mapa_footer {
   margin: 0 0 20px 440px;
 }
 
-/* MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE  */
-@media only screen and (max-width: 576px) {
-  header .contenedor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  header .contenedor nav ul li a {
-    font-size: 12.5px;
-    font-weight: bolder;
-  }
-  .encabezado_principal {
-    display: none;
-  }
-  .veni_jardin h2 {
-    align-items: center;
-    font-size: 25px;
-  }
-  .contenedor_columnas {
-    display: flex;
-    flex-direction: column;
-  }
-  .contenedor_columnas .columna_1 img {
-    width: 80%;
-    height: 60%;
-    margin-left: 70px;
-  }
-  .contenedor_columnas .columna_2 {
-    margin: 20px 0 10px 40px;
-    padding: 0;
-    border-bottom: 1px solid black;
-  }
-  .contenedor_columnas .columna_2 p {
-    font-size: 21px;
-  }
-  /* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
-  #contacto .mapa_footer iframe {
-    display: none;
-  }
-  /*AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA */
-  .contenedor_agenda-titulo h2 {
-    font-size: 25px;
-  }
-  .contenedor_agenda-titulo p {
-    font-size: 18px;
-    padding-right: 50px;
-  }
-  /*PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS */
-  .titulo_paseos h2 {
-    font-size: 25px;
-  }
-  .paseos-aves {
-    margin-left: 30px;
-  }
-  .paseos-cactus {
-    margin-left: 30px;
-  }
-  .paseos-palmeras {
-    margin-left: 23px;
-  }
-  .paseos-bosque {
-    margin-left: 30px;
-  }
-  /*JARDIN JARDIN JARDIN JARDIN JARDIN JARDIN */
-  .contenedor_jardin {
-    display: flex;
-  }
-  .contenedor_jardin .columnas {
-    flex-wrap: wrap;
-  }
-  .contenedor_jardin .columnas img {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  .contenedor_jardin .columnas .contenedor_jardin-titulo h2 {
-    text-align: center;
-    background-color: burlywood;
-    font-size: 50px;
-  }
-  .contenedor_jardin .columnas .contenedor_jardin-titulo p {
-    font-size: 18px;
-    padding-left: 27px;
-  }
-  .mapa_jardin h2 {
-    font-size: 40px;
-  }
-  .mapa_jardin img {
-    width: 500px;
-    padding-left: 40px;
-  }
-  /*NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES */
-  .encabezado_novedades img {
-    width: 500px;
-    height: 350px;
-    margin-left: 30px;
-    border: 2px solid black;
-    border-radius: 50px;
-  }
-  .contenedor_novedades-titulos h2 {
-    font-size: 30px;
-    padding: 0;
-    align-items: flex-start;
-  }
-  .contenedor_novedades-titulos img {
-    display: none;
-  }
-  .contenedor_novedades-titulos p {
-    font-size: 50px;
-  }
-  /*GALERIA GALERIA GALERIA GALERIA GALERIA GALERIA */
-  .galeria_dos {
-    margin-left: 21px;
-  }
-  .galeria_tres {
-    margin-left: 15px;
-  }
-  .galeria_cuatro {
-    margin-right: 35px;
-  }
-  .galeria_cinco {
-    margin-left: 20px;
-  }
-  .galeria_seis {
-    margin-left: 40px;
-  }
-  .galeria_siete {
-    margin-left: 28px;
-  }
-  .galeria_ocho {
-    margin-left: 28px;
-  }
-}
-/*TABLET TABLET TABLET TABLET TABLET TABLET TABLET */
-@media only screen and (max-width: 768px) {
-  header .contenedor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  header .contenedor nav ul li a {
-    font-size: 12.5px;
-    font-weight: bolder;
-  }
-  .encabezado_principal {
-    display: none;
-  }
-  .veni_jardin h2 {
-    align-items: center;
-    font-size: 25px;
-  }
-  .contenedor_columnas {
-    display: flex;
-    flex-direction: column;
-  }
-  .contenedor_columnas .columna_1 img {
-    width: 80%;
-    height: 60%;
-    margin-left: 70px;
-  }
-  .contenedor_columnas .columna_2 {
-    margin: 20px 0 10px 40px;
-    padding: 0;
-    border-bottom: 1px solid black;
-  }
-  .contenedor_columnas .columna_2 p {
-    font-size: 21px;
-  }
-  /* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
-  #contacto .mapa_footer iframe {
-    display: none;
-  }
-  .contenedor_jardin {
-    display: flex;
-  }
-  .contenedor_jardin .columnas {
-    flex-wrap: wrap;
-  }
-  .contenedor_jardin .columnas img {
-    width: 700px;
-    padding-left: 40px;
-    padding-bottom: 20px;
-  }
-  .contenedor_jardin .columnas .contenedor_jardin-titulo h1 {
-    text-align: center;
-    font-size: 80px;
-  }
-  .contenedor_jardin .columnas .contenedor_jardin-titulo p {
-    font-size: 18px;
-    padding-left: 27px;
-  }
-  .mapa_jardin h2 {
-    font-size: 40px;
-  }
-  .mapa_jardin img {
-    height: 600px;
-    width: 720px;
-    margin: 0px;
-  }
-  /*PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS */
-  .titulo_paseos h2 {
-    font-size: 25px;
-  }
-  .paseos-aves {
-    margin-left: 30px;
-  }
-  .paseos-cactus {
-    margin-left: 30px;
-  }
-  .paseos-palmeras {
-    margin-left: 23px;
-  }
-  .paseos-bosque {
-    margin-left: 30px;
-  }
-  /*NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES */
-  .encabezado_novedades img {
-    width: 550px;
-    height: 350px;
-    margin-left: 30px;
-    border: 2px solid black;
-    border-radius: 50px;
-  }
-  .contenedor_novedades-titulos h2 {
-    font-size: 30px;
-    padding: 0;
-    align-items: flex-start;
-  }
-  .contenedor_novedades-titulos img {
-    display: none;
-  }
-  .contenedor_novedades-titulos p {
-    font-size: 50px;
-  }
-  /*GALERIA GALERIA GALERIA GALERIA GALERIA GALERIA */
-  .contenedor_galerias .galeria_tres {
-    display: none;
-  }
-  .contenedor_galerias .galeria_cuatro {
-    display: none;
-  }
-  .contenedor_galerias .galeria_cinco {
-    display: none;
-  }
-  .contenedor_galerias .galeria_siete {
-    margin-left: 0px;
-  }
-  .contenedor_galerias .galeria_siete p {
-    padding-bottom: 70px;
-  }
-  .contenedor_galerias .galeria_ocho p {
-    padding-bottom: 70px;
-  }
-}
-/*JARDIN JARDIN JARDIN JARDIN JARDIN JARDIN */
-.contenedor_jardin {
-  display: flex;
-}
-.contenedor_jardin .columnas {
-  flex-wrap: wrap;
-}
-.contenedor_jardin .columnas img {
-  width: 700px;
-  padding-bottom: 20px;
-}
-.contenedor_jardin .columnas .contenedor_jardin-titulo h2 {
-  text-align: center;
-  background-color: burlywood;
-  font-size: 50px;
-}
-.contenedor_jardin .columnas .contenedor_jardin-titulo p {
-  font-size: 18px;
-  padding-left: 27px;
-}
-
-.mapa_jardin h2 {
-  font-size: 40px;
-}
-.mapa_jardin img {
-  height: 400px;
-  width: 600px;
-  margin: 0px;
-  padding-left: 140px;
-}
-
 /*DESKTOP DESKTOP DESKTOP DESKTOP*/
 .encabezado_principal {
   background: url(../imagenes/fondoIncio.jpg);
@@ -402,9 +117,9 @@ footer .mapa_footer {
   flex-direction: column;
 }
 .contenedor_jardin .columnas img {
-  width: 550px;
-  padding-left: 250px;
-  border-radius: 50px;
+  width: 50px;
+  padding-left: 300px;
+  border-radius: 7%;
   justify-content: center;
 }
 .contenedor_jardin .columnas .contenedor_jardin-titulo h1 {
@@ -545,7 +260,7 @@ footer .mapa_footer {
 
 /*NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES */
 .encabezado_novedades img {
-  width: 1000px;
+  width: 1000x;
   height: 600px;
   margin: 10px 0 0 10px;
   border: 2px solid black;
@@ -661,6 +376,280 @@ footer .mapa_footer {
 }
 .contenedor_agenda .agenda_caminata-nocturna p {
   font-size: 18px;
+}
+
+/* MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE  */
+@media only screen and (max-width: 576px) {
+  header .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header .contenedor nav ul li a {
+    font-size: 12.5px;
+    font-weight: bolder;
+  }
+  .encabezado_principal {
+    display: none;
+  }
+  .veni_jardin h2 {
+    align-items: center;
+    font-size: 25px;
+  }
+  .contenedor_columnas {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedor_columnas .columna_1 img {
+    width: 100%;
+    height: 60%;
+    margin-left: 70px;
+  }
+  .columna_2 {
+    margin: 20px 0 10px 40px;
+    padding: 0;
+    border-bottom: 1px solid black;
+  }
+  .columna_2 p {
+    font-size: 21px;
+  }
+}
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+#contacto .mapa_footer iframe {
+  display: none;
+}
+
+/*AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA */
+.contenedor_agenda-titulo h2 {
+  font-size: 25px;
+}
+.contenedor_agenda-titulo p {
+  font-size: 18px;
+  padding-right: 50px;
+}
+
+/*PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS */
+.titulo_paseos h2 {
+  font-size: 25px;
+}
+
+.paseos-aves {
+  margin-left: 30px;
+}
+
+.paseos-cactus {
+  margin-left: 30px;
+}
+
+.paseos-palmeras {
+  margin-left: 23px;
+}
+
+.paseos-bosque {
+  margin-left: 30px;
+}
+
+/*JARDIN JARDIN JARDIN JARDIN JARDIN JARDIN */
+.contenedor_jardin {
+  display: flex;
+}
+.contenedor_jardin .columnas {
+  flex-wrap: wrap;
+}
+.contenedor_jardin .columnas img {
+  width: 40%;
+  margin: 0;
+  padding: 0;
+}
+.contenedor_jardin .columnas .contenedor_jardin-titulo h2 {
+  text-align: center;
+  background-color: burlywood;
+  font-size: 50px;
+}
+.contenedor_jardin .columnas .contenedor_jardin-titulo p {
+  font-size: 50px;
+  padding-left: 17px;
+}
+
+.mapa_jardin h2 {
+  font-size: 40px;
+}
+.mapa_jardin img {
+  width: 500px;
+  padding-left: 40px;
+}
+
+/*NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES */
+.encabezado_novedades img {
+  width: 500px;
+  height: 350px;
+  margin-left: 20px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.contenedor_novedades-titulos h2 {
+  font-size: 30px;
+  padding: 0;
+  align-items: flex-start;
+}
+.contenedor_novedades-titulos img {
+  display: none;
+}
+.contenedor_novedades-titulos p {
+  font-size: 50px;
+}
+
+/*TABLET TABLET TABLET TABLET TABLET TABLET TABLET */
+@media only screen and (max-width: 768px) {
+  header .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header .contenedor nav ul li a {
+    font-size: 12.5px;
+    font-weight: bolder;
+  }
+  .encabezado_principal {
+    display: none;
+  }
+  .veni_jardin h2 {
+    align-items: center;
+    font-size: 25px;
+  }
+  .contenedor_columnas {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedor_columnas .columna_1 img {
+    width: 80%;
+    height: 60%;
+    margin-left: 70px;
+  }
+  .contenedor_columnas .columna_2 {
+    margin: 20px 0 10px 40px;
+    padding: 0;
+    border-bottom: 1px solid black;
+  }
+  .contenedor_columnas .columna_2 p {
+    font-size: 21px;
+  }
+  /* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+  #contacto .mapa_footer iframe {
+    display: none;
+  }
+  .contenedor_jardin {
+    display: flex;
+  }
+  .contenedor_jardin .columnas {
+    flex-wrap: wrap;
+  }
+  .contenedor_jardin .columnas img {
+    width: 700px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+  }
+  .contenedor_jardin .columnas .contenedor_jardin-titulo h1 {
+    text-align: center;
+    font-size: 80px;
+  }
+  .contenedor_jardin .columnas .contenedor_jardin-titulo p {
+    font-size: 18px;
+    padding-left: 27px;
+  }
+  .mapa_jardin h2 {
+    font-size: 40px;
+  }
+  .mapa_jardin img {
+    height: 600px;
+    width: 720px;
+    margin: 0px;
+  }
+  /*PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS */
+  .titulo_paseos h2 {
+    font-size: 25px;
+  }
+  .paseos-aves {
+    margin-left: 30px;
+  }
+  .paseos-cactus {
+    margin-left: 30px;
+  }
+  .paseos-palmeras {
+    margin-left: 23px;
+  }
+  .paseos-bosque {
+    margin-left: 30px;
+  }
+  /*NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES */
+  .encabezado_novedades img {
+    width: 700px;
+    height: 350px;
+    margin-left: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+  }
+  .contenedor_novedades-titulos h2 {
+    font-size: 30px;
+    padding: 0;
+    align-items: flex-start;
+  }
+  .contenedor_novedades-titulos img {
+    display: none;
+  }
+  .contenedor_novedades-titulos p {
+    font-size: 50px;
+  }
+  /*GALERIA GALERIA GALERIA GALERIA GALERIA GALERIA */
+  .contenedor_galerias .galeria_tres {
+    display: none;
+  }
+  .contenedor_galerias .galeria_cuatro {
+    display: none;
+  }
+  .contenedor_galerias .galeria_cinco {
+    display: none;
+  }
+  .contenedor_galerias .galeria_siete {
+    margin-left: 0px;
+  }
+  .contenedor_galerias .galeria_siete p {
+    padding-bottom: 70px;
+  }
+  .contenedor_galerias .galeria_ocho p {
+    padding-bottom: 70px;
+  }
+}
+/*JARDIN JARDIN JARDIN JARDIN JARDIN JARDIN */
+.contenedor_jardin {
+  display: flex;
+}
+.contenedor_jardin .columnas {
+  flex-wrap: wrap;
+}
+.contenedor_jardin .columnas img {
+  width: 700px;
+  padding-bottom: 20px;
+}
+.contenedor_jardin .columnas .contenedor_jardin-titulo h2 {
+  text-align: center;
+  background-color: burlywood;
+  font-size: 50px;
+}
+.contenedor_jardin .columnas .contenedor_jardin-titulo p {
+  font-size: 18px;
+  padding-left: 27px;
+}
+
+.mapa_jardin h2 {
+  font-size: 40px;
+}
+.mapa_jardin img {
+  height: 400px;
+  width: 600px;
+  margin: 0px;
+  padding-left: 140px;
 }
 
 /*# sourceMappingURL=style.css.map */

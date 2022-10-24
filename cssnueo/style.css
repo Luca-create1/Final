@@ -1,0 +1,655 @@
+@charset "UTF-8";
+header .contenedor {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+header .contenedor img {
+  padding-left: 25px;
+  width: 300px;
+  height: 80px;
+}
+header .contenedor nav {
+  padding-right: 50px;
+  padding-top: 35px;
+}
+header .contenedor nav ul {
+  display: flex;
+}
+header .contenedor nav ul li {
+  list-style: none;
+  padding-left: 20px;
+  font-size: 14.5px;
+}
+header .contenedor nav ul li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+header .contenedor nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins";
+}
+
+footer {
+  background-color: rgb(83, 81, 81);
+  margin-top: 100px;
+  border: 2px solid gray;
+  display: flex;
+}
+footer h2 {
+  font-size: 30px;
+  padding: 30px 0 10px 120px;
+  color: white;
+}
+footer img {
+  padding-left: 10px;
+}
+footer .descripcion_footer {
+  padding: 20px 0 20px 0;
+  line-height: 2;
+  font-size: 18px;
+  color: white;
+}
+footer .mapa_footer {
+  padding: 40px 0 20px 0;
+  margin: 0 0 20px 440px;
+}
+
+/* MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE  */
+@media only screen and (max-width: 576px) {
+  header .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header .contenedor nav ul li a {
+    font-size: 12.5px;
+    font-weight: bolder;
+  }
+  .encabezado_principal {
+    display: none;
+  }
+  .veni_jardin h2 {
+    align-items: center;
+    font-size: 25px;
+  }
+  .contenedor_columnas {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedor_columnas .columna_1 img {
+    width: 100%;
+    height: 60%;
+    margin-left: 70px;
+  }
+  .columna_2 {
+    margin: 20px 0 10px 40px;
+    padding: 0;
+    border-bottom: 1px solid black;
+  }
+  .columna_2 p {
+    font-size: 21px;
+  }
+}
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+#contacto .mapa_footer iframe {
+  display: none;
+}
+
+/*AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA */
+.contenedor_agenda-titulo h2 {
+  font-size: 25px;
+}
+.contenedor_agenda-titulo p {
+  font-size: 18px;
+  padding-right: 50px;
+}
+
+/*PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS */
+.titulo_paseos h2 {
+  font-size: 25px;
+}
+
+.paseos-aves {
+  margin-left: 30px;
+}
+
+.paseos-cactus {
+  margin-left: 30px;
+}
+
+.paseos-palmeras {
+  margin-left: 23px;
+}
+
+.paseos-bosque {
+  margin-left: 30px;
+}
+
+/*JARDIN JARDIN JARDIN JARDIN JARDIN JARDIN */
+.contenedor_jardin {
+  display: flex;
+}
+.contenedor_jardin .columnas {
+  flex-wrap: wrap;
+}
+.contenedor_jardin .columnas img {
+  width: 40%;
+  margin: 0;
+  padding: 0;
+}
+.contenedor_jardin .columnas .contenedor_jardin-titulo h2 {
+  text-align: center;
+  background-color: burlywood;
+  font-size: 50px;
+}
+.contenedor_jardin .columnas .contenedor_jardin-titulo p {
+  font-size: 50px;
+  padding-left: 17px;
+}
+
+.mapa_jardin h2 {
+  font-size: 40px;
+}
+.mapa_jardin img {
+  width: 500px;
+  padding-left: 40px;
+}
+
+/*NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES */
+.encabezado_novedades img {
+  width: 500px;
+  height: 350px;
+  margin-left: 20px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.contenedor_novedades-titulos h2 {
+  font-size: 30px;
+  padding: 0;
+  align-items: flex-start;
+}
+.contenedor_novedades-titulos img {
+  display: none;
+}
+.contenedor_novedades-titulos p {
+  font-size: 50px;
+}
+
+/*TABLET TABLET TABLET TABLET TABLET TABLET TABLET */
+@media only screen and (max-width: 768px) {
+  header .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header .contenedor nav ul li a {
+    font-size: 12.5px;
+    font-weight: bolder;
+  }
+  .encabezado_principal {
+    display: none;
+  }
+  .veni_jardin h2 {
+    align-items: center;
+    font-size: 25px;
+  }
+  .contenedor_columnas {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedor_columnas .columna_1 img {
+    width: 80%;
+    height: 60%;
+    margin-left: 70px;
+  }
+  .contenedor_columnas .columna_2 {
+    margin: 20px 0 10px 40px;
+    padding: 0;
+    border-bottom: 1px solid black;
+  }
+  .contenedor_columnas .columna_2 p {
+    font-size: 21px;
+  }
+  /* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+  #contacto .mapa_footer iframe {
+    display: none;
+  }
+  .contenedor_jardin {
+    display: flex;
+  }
+  .contenedor_jardin .columnas {
+    flex-wrap: wrap;
+  }
+  .contenedor_jardin .columnas img {
+    width: 700px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+  }
+  .contenedor_jardin .columnas .contenedor_jardin-titulo h1 {
+    text-align: center;
+    font-size: 80px;
+  }
+  .contenedor_jardin .columnas .contenedor_jardin-titulo p {
+    font-size: 18px;
+    padding-left: 27px;
+  }
+  .mapa_jardin h2 {
+    font-size: 40px;
+  }
+  .mapa_jardin img {
+    height: 600px;
+    width: 720px;
+    margin: 0px;
+  }
+  /*PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS */
+  .titulo_paseos h2 {
+    font-size: 25px;
+  }
+  .paseos-aves {
+    margin-left: 30px;
+  }
+  .paseos-cactus {
+    margin-left: 30px;
+  }
+  .paseos-palmeras {
+    margin-left: 23px;
+  }
+  .paseos-bosque {
+    margin-left: 30px;
+  }
+  /*NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES */
+  .encabezado_novedades img {
+    width: 700px;
+    height: 350px;
+    margin-left: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+  }
+  .contenedor_novedades-titulos h2 {
+    font-size: 30px;
+    padding: 0;
+    align-items: flex-start;
+  }
+  .contenedor_novedades-titulos img {
+    display: none;
+  }
+  .contenedor_novedades-titulos p {
+    font-size: 50px;
+  }
+  /*GALERIA GALERIA GALERIA GALERIA GALERIA GALERIA */
+  .contenedor_galerias .galeria_tres {
+    display: none;
+  }
+  .contenedor_galerias .galeria_cuatro {
+    display: none;
+  }
+  .contenedor_galerias .galeria_cinco {
+    display: none;
+  }
+  .contenedor_galerias .galeria_siete {
+    margin-left: 0px;
+  }
+  .contenedor_galerias .galeria_siete p {
+    padding-bottom: 70px;
+  }
+  .contenedor_galerias .galeria_ocho p {
+    padding-bottom: 70px;
+  }
+}
+/*JARDIN JARDIN JARDIN JARDIN JARDIN JARDIN */
+.contenedor_jardin {
+  display: flex;
+}
+.contenedor_jardin .columnas {
+  flex-wrap: wrap;
+}
+.contenedor_jardin .columnas img {
+  width: 700px;
+  padding-bottom: 20px;
+}
+.contenedor_jardin .columnas .contenedor_jardin-titulo h2 {
+  text-align: center;
+  background-color: burlywood;
+  font-size: 50px;
+}
+.contenedor_jardin .columnas .contenedor_jardin-titulo p {
+  font-size: 18px;
+  padding-left: 27px;
+}
+
+.mapa_jardin h2 {
+  font-size: 40px;
+}
+.mapa_jardin img {
+  height: 400px;
+  width: 600px;
+  margin: 0px;
+  padding-left: 140px;
+}
+
+/*DESKTOP DESKTOP DESKTOP DESKTOP*/
+.encabezado_principal {
+  background: url(../imagenes/fondoIncio.jpg);
+  background-size: cover;
+  margin: 0 5px 0 5px;
+  padding: 215px 0;
+  border: 1px solid black;
+}
+.encabezado_principal h1 {
+  font-size: 100px;
+  font-family: "CHANEWEI";
+  color: white;
+  padding-left: 20px;
+}
+.encabezado_principal p {
+  color: hwb(0 100% 0%);
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+.veni_jardin h2 {
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.contenedor_columnas {
+  display: flex;
+}
+.contenedor_columnas .columna_1 img {
+  width: 190%;
+  height: 80%;
+  border: 2px solid black;
+  margin: 30px 0 0 30px;
+}
+.contenedor_columnas .columna_2 {
+  font-family: "OpenSans";
+  padding: 40px 10px 0 300px;
+  font-size: 21px;
+  line-height: 2;
+}
+
+.informacion_titulo h2 {
+  padding-top: 0px;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.accordion .accordion-button {
+  font-size: 20px;
+}
+
+/* JARDÍN JARDÍN JARDÍN JARDÍN JARDÍN JARDÍN JARDÍN JARDÍN */
+.contenedor_jardin .columnas {
+  display: flex;
+  flex-direction: column;
+}
+.contenedor_jardin .columnas img {
+  width: 850px;
+  padding-left: 300px;
+  border-radius: 7%;
+  justify-content: center;
+}
+.contenedor_jardin .columnas .contenedor_jardin-titulo h1 {
+  font-size: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  background-color: burlywood;
+}
+.contenedor_jardin .columnas .contenedor_jardin-titulo p {
+  font-family: "CHANEWEI";
+  line-height: 40px;
+  font-size: 21px;
+  padding: 0 12px;
+}
+
+.mapa_jardin h2 {
+  font-family: cursive;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 30px;
+}
+.mapa_jardin img {
+  width: 85%;
+  padding-left: 60px;
+}
+
+/* SERVICIOS SERVICIOS SERVICIOS SERVICIOS SERVICIOS SERVICIOS */
+.carousel-inner img {
+  background-size: cover;
+  height: 580px;
+}
+
+.titulo_servicios-acordion h1 {
+  padding: 25px 0 25px 75px;
+  text-align: start;
+  font-family: cursive;
+  color: black;
+}
+
+/*PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS */
+.titulo_paseos h1 {
+  font-size: 50px;
+  text-align: center;
+  background-color: burlywood;
+  padding: 30px 0 20px 0;
+  color: black;
+}
+
+.contenedor_paseos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contenedor_paseos .paseos-mariposas h3 {
+  text-align: center;
+  font-family: "Poppins";
+  margin-top: 5px;
+}
+.contenedor_paseos .paseos-mariposas .card {
+  margin: 40px 10px 10px 40px;
+  padding-bottom: 25px;
+  border: 2px solid burlywood;
+}
+.contenedor_paseos .paseos-mariposas p {
+  padding-bottom: 40px;
+}
+.contenedor_paseos .paseos-mariposas img {
+  border: 0.5px solid black;
+}
+.contenedor_paseos .paseos-aves h3 {
+  text-align: center;
+  font-family: "Poppins";
+  margin-top: 5px;
+}
+.contenedor_paseos .paseos-aves .card {
+  margin: 40px 10px 10px 10px;
+  border: 2px solid burlywood;
+}
+.contenedor_paseos .paseos-aves p {
+  padding-bottom: 40px;
+}
+.contenedor_paseos .paseos-aves img {
+  border: 0.5px solid black;
+}
+.contenedor_paseos .paseos-cactus h3 {
+  text-align: center;
+  font-family: "Poppins";
+  margin-top: 5px;
+}
+.contenedor_paseos .paseos-cactus .card {
+  margin: 40px 10px 10px 50px;
+  border: 2px solid burlywood;
+  padding-bottom: 45px;
+}
+.contenedor_paseos .paseos-cactus img {
+  border: 0.5px solid black;
+}
+.contenedor_paseos .paseos-hongos h3 {
+  text-align: center;
+  font-family: "Poppins";
+  margin-top: 5px;
+}
+.contenedor_paseos .paseos-hongos .card {
+  margin: 40px 10px 10px 50px;
+  padding-bottom: 25px;
+  border: 2px solid burlywood;
+}
+.contenedor_paseos .paseos-hongos img {
+  border: 0.5px solid black;
+}
+.contenedor_paseos .paseos-palmeras h3 {
+  text-align: center;
+  font-family: "Poppins";
+  margin-top: 5px;
+}
+.contenedor_paseos .paseos-palmeras .card {
+  margin: 40px 0px 10px 40px;
+  padding-bottom: 45px;
+  border: 2px solid burlywood;
+}
+.contenedor_paseos .paseos-palmeras img {
+  border: 0.5px solid black;
+}
+.contenedor_paseos .paseos-bosque h3 {
+  text-align: center;
+  font-family: "Poppins";
+  margin-top: 5px;
+}
+.contenedor_paseos .paseos-bosque .card {
+  margin: 40px 20px 10px 40px;
+  padding-bottom: 70px;
+  border: 2px solid burlywood;
+}
+.contenedor_paseos .paseos-bosque img {
+  border: 0.5px solid black;
+}
+
+/*NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES */
+.encabezado_novedades img {
+  width: 1000x;
+  height: 600px;
+  margin: 10px 0 0 10px;
+  border: 2px solid black;
+}
+
+.contenedor_novedades-titulos h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: burlywood;
+  text-align: center;
+  margin-top: 50px;
+}
+.contenedor_novedades-titulos .contenedor_novedades-descripcion_uno img {
+  margin-top: 25px;
+  margin-left: 320px;
+  width: 550px;
+  height: 350px;
+  border: 1px solid black;
+}
+.contenedor_novedades-titulos .contenedor_novedades-descripcion_uno p {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+.contenedor_novedades-titulos .contenedor_novedades-descripcion_dos img {
+  margin-top: 25px;
+  margin-left: 320px;
+  width: 550px;
+  height: 350px;
+  border: 1px solid black;
+}
+.contenedor_novedades-titulos .contenedor_novedades-descripcion_dos p {
+  font-size: 25px;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+.contenedor_novedades-titulos .contenedor_novedades-descripcion_tres img {
+  margin-top: 25px;
+  margin-left: 320px;
+  width: 550px;
+  height: 350px;
+  border: 1px solid black;
+}
+.contenedor_novedades-titulos .contenedor_novedades-descripcion_tres p {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* GALERIA GALERIA GALERIA GALERIA GALERIA GALERIA GALERIA */
+.encabezado_galeria h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 18px;
+  background-color: burlywood;
+}
+
+/*AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA */
+.contenedor_agenda-titulo h1 {
+  font-size: 50px;
+  text-align: center;
+  background-color: burlywood;
+  padding: 30px 0 20px 0;
+  margin-bottom: 40px;
+  color: black;
+}
+.contenedor_agenda-titulo p {
+  font-size: 21px;
+  padding: 5px 0 0 100px;
+  font-family: "Nunito";
+}
+
+.contenedor_agenda {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contenedor_agenda .btn-primary {
+  background-color: rgb(240, 175, 89);
+  border: 1px solid wheat;
+}
+.contenedor_agenda .agenda_casamiento .card {
+  margin: 30px 10px 0 0;
+  padding-bottom: 30px;
+}
+.contenedor_agenda .agenda_casamiento h5 {
+  text-align: center;
+}
+.contenedor_agenda .agenda_casamiento p {
+  font-size: 18px;
+}
+.contenedor_agenda .agenda_visita-guiada .card {
+  margin: 30px 10px 0 0;
+}
+.contenedor_agenda .agenda_visita-guiada h5 {
+  text-align: center;
+}
+.contenedor_agenda .agenda_visita-guiada p {
+  font-size: 18px;
+}
+.contenedor_agenda .agenda_caminata-nocturna .card {
+  margin: 30px 10px 0 0;
+}
+.contenedor_agenda .agenda_caminata-nocturna h5 {
+  text-align: center;
+}
+.contenedor_agenda .agenda_caminata-nocturna p {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */
